@@ -1,0 +1,1070 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19041) 64bit Professional' Language: 'en' Physical Memory: 32547 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Games/Practice/Fantasy3DGameLab3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61290
+Successfully changed project path to: D:/Games/Practice/Fantasy3DGameLab3
+D:/Games/Practice/Fantasy3DGameLab3
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Games/Practice/Fantasy3DGameLab3/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   
+    VRAM:     8044 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002396 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.422 seconds
+Domain Reload Profiling:
+	ReloadAssembly (422ms)
+		BeginReloadAssembly (39ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (330ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (107ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (132ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (58ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003678 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1042ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (898ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (506ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (389ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.7 MB.
+System memory in use after: 122.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2815.
+Total: 2.739700 ms (FindLiveObjects: 0.140500 ms CreateObjectMapping: 0.039400 ms MarkObjects: 2.374200 ms  DeleteObjects: 0.184800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Medival house/Models/Table.FBX
+  artifactKey: Guid(4184cbd5a23ecbe41b4fc1b1fd251899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Table.FBX using Guid(4184cbd5a23ecbe41b4fc1b1fd251899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8d703ad05cfec9959b0648ec2cdd5f') in 0.159014 seconds 
+  Import took 0.162078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Medival house/Models/House 2 Top End Roof.FBX
+  artifactKey: Guid(edf0aacccc6120040844ce28232d8c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 Top End Roof.FBX using Guid(edf0aacccc6120040844ce28232d8c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ff0334e695580b9765c1a6b126ee62') in 0.059589 seconds 
+  Import took 0.062739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Medival house/Models/Barrel 2.FBX
+  artifactKey: Guid(73377117c82238747aa119d98857b76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Barrel 2.FBX using Guid(73377117c82238747aa119d98857b76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b68488f4195821858dc0d33dd1a831') in 0.106736 seconds 
+  Import took 0.109720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Medival house/Models/House 1 Middle Roof.FBX
+  artifactKey: Guid(7815ca3a8521fad45875c6ec64518f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 1 Middle Roof.FBX using Guid(7815ca3a8521fad45875c6ec64518f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550b43319a3db5f69b9f9114658ed18d') in 0.039056 seconds 
+  Import took 0.042062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Medival house/Models/House 1 Wall Window.FBX
+  artifactKey: Guid(9c1c224a158cf4940b001eb619d0a13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 1 Wall Window.FBX using Guid(9c1c224a158cf4940b001eb619d0a13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d82ff51cd701c8d742d2a856a608fb') in 0.032183 seconds 
+  Import took 0.035415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Medival house/Models/House 2 Middle End Right Roof.FBX
+  artifactKey: Guid(ce6810044cbe9f240bd41df12087ff0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 Middle End Right Roof.FBX using Guid(ce6810044cbe9f240bd41df12087ff0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cb66647802be11e67bec35d6d2934f') in 0.014572 seconds 
+  Import took 0.017474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Medival house/Models/House 1 Middle end Roof.FBX
+  artifactKey: Guid(1da22b654a5bc0345b5c1bdb4072405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 1 Middle end Roof.FBX using Guid(1da22b654a5bc0345b5c1bdb4072405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af435a20112e962895c000539d9e470c') in 0.017456 seconds 
+  Import took 0.020582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Medival house/Models/House 2 Middle End Left Roof.FBX
+  artifactKey: Guid(04818c703163eb945b28220ad60b8da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 Middle End Left Roof.FBX using Guid(04818c703163eb945b28220ad60b8da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838fc1f94cf150106af1d585ff3e7f3e') in 0.013392 seconds 
+  Import took 0.016381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Medival house/Models/Box 1.FBX
+  artifactKey: Guid(38092ef806ef7154a9223973c15b27e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Box 1.FBX using Guid(38092ef806ef7154a9223973c15b27e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400cdc61f5198ba36307f350c3516ce0') in 0.016466 seconds 
+  Import took 0.019549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Medival house/Models/Chair.FBX
+  artifactKey: Guid(f5ee45495f666834ebebbfe87808e591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Chair.FBX using Guid(f5ee45495f666834ebebbfe87808e591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccdb6e856c55c9aad9c42b05508a7f4') in 0.015841 seconds 
+  Import took 0.018897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Medival house/Models/Fence.FBX
+  artifactKey: Guid(9d357f2a965a4854c89e2c635a95d349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Fence.FBX using Guid(9d357f2a965a4854c89e2c635a95d349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cb8e11065d0d083a163d3e62fbcdc9') in 0.017535 seconds 
+  Import took 0.020543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Medival house/Models/House 2 Top Middle Roof.FBX
+  artifactKey: Guid(794a7ca6b826dab4bb673dbf71d25500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 Top Middle Roof.FBX using Guid(794a7ca6b826dab4bb673dbf71d25500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df209e8bfbd11d27cc6b5a91430acd3') in 0.012547 seconds 
+  Import took 0.015554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Medival house/Models/House 1 Right End Corner Roof.FBX
+  artifactKey: Guid(8caf2338356729f4fa82b7a25c151ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 1 Right End Corner Roof.FBX using Guid(8caf2338356729f4fa82b7a25c151ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2861d0b9c7d64beaf74abf41a2c9e1') in 0.016469 seconds 
+  Import took 0.019529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Medival house/Models/House 2 Wall Door.FBX
+  artifactKey: Guid(53e4e86cc43b68c4e86c90b50593fad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 Wall Door.FBX using Guid(53e4e86cc43b68c4e86c90b50593fad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd26405b8fb429501c5949e75d561394') in 0.029787 seconds 
+  Import took 0.033155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Medival house/Models/House 1 Wall Door.FBX
+  artifactKey: Guid(161baab178ad3ef4c9c6b839a997b24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 1 Wall Door.FBX using Guid(161baab178ad3ef4c9c6b839a997b24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032578bf8613236d661af7d491f5df26') in 0.021791 seconds 
+  Import took 0.025537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Medival house/Models/Warter well.FBX
+  artifactKey: Guid(027bd7ff7517d6f49b766f418bdc76e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Warter well.FBX using Guid(027bd7ff7517d6f49b766f418bdc76e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c645a93269f078657ad10715e05266') in 0.017286 seconds 
+  Import took 0.020381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Medival house/Models/Barrel 1.FBX
+  artifactKey: Guid(123bbfed920aaa3419868c0fe05d97bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Barrel 1.FBX using Guid(123bbfed920aaa3419868c0fe05d97bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e83ce5b0daf7bcb8cecf5124e7e7cf') in 0.015731 seconds 
+  Import took 0.018750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Medival house/Models/House 2 Down End Left Roof.FBX
+  artifactKey: Guid(c6479c7dc4e8d15409fde32772e46abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 Down End Left Roof.FBX using Guid(c6479c7dc4e8d15409fde32772e46abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938f264ce843cd1dfc0cd4371debfd46') in 0.017777 seconds 
+  Import took 0.021083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Medival house/Models/Bucket 2.FBX
+  artifactKey: Guid(c87eda597a58c24429361911e36e71b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Bucket 2.FBX using Guid(c87eda597a58c24429361911e36e71b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa6f68ca32079903296249176a87df4') in 0.019669 seconds 
+  Import took 0.022843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Medival house/Models/House 2 Middle Roof.FBX
+  artifactKey: Guid(42415cff99e792a4d8fd481fc690a1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 Middle Roof.FBX using Guid(42415cff99e792a4d8fd481fc690a1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5d526fc44b5a423d9a6fd368aa1353') in 0.014238 seconds 
+  Import took 0.017336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Medival house/Models/Water Holder.FBX
+  artifactKey: Guid(e8e71b9e833a4b34ebd91e5ccb51ce82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Water Holder.FBX using Guid(e8e71b9e833a4b34ebd91e5ccb51ce82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e037d1249cc6f6f4dc7909a80c3c67a2') in 0.015414 seconds 
+  Import took 0.018451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Medival house/Models/Box 2.FBX
+  artifactKey: Guid(56eb72ac6af711e46860e0c2c8353e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Box 2.FBX using Guid(56eb72ac6af711e46860e0c2c8353e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4754f7a7596c9d882b8025831ce23cb') in 0.018496 seconds 
+  Import took 0.021415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Medival house/Models/House 2 X Wall.FBX
+  artifactKey: Guid(de24aa2f70618fe4690c616d6164077b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 X Wall.FBX using Guid(de24aa2f70618fe4690c616d6164077b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85188b841ce7a538a9663cd12c1abd36') in 0.014830 seconds 
+  Import took 0.017987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Medival house/Models/House 1 Middle end roof right.FBX
+  artifactKey: Guid(22cb26e27d7c7874c9214b43f9ab1104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 1 Middle end roof right.FBX using Guid(22cb26e27d7c7874c9214b43f9ab1104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1482057147b8e06c659fa39e87f1be5b') in 0.017764 seconds 
+  Import took 0.020861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Medival house/Models/Part 1 medival house.FBX
+  artifactKey: Guid(0afd37d3bff043942a9c7501f6f06805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Part 1 medival house.FBX using Guid(0afd37d3bff043942a9c7501f6f06805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609453c5d10a3cfaf8f9864793555289') in 0.017414 seconds 
+  Import took 0.020540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Medival house/Models/Coach wheel.FBX
+  artifactKey: Guid(1039d27a1183d514e95e9cc687b99fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Coach wheel.FBX using Guid(1039d27a1183d514e95e9cc687b99fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b9d3e43f39415c577da559c299f162') in 0.015717 seconds 
+  Import took 0.018672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Medival house/Models/House 1 Top Middle Roof.FBX
+  artifactKey: Guid(9614621e694e3d64fb70765f53c8e212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 1 Top Middle Roof.FBX using Guid(9614621e694e3d64fb70765f53c8e212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd19716ec0680f330e40369a125aa65') in 0.012553 seconds 
+  Import took 0.015538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Medival house/Models/House 1 Left End Corner Roof.FBX
+  artifactKey: Guid(c7614320f3ccb314189ab079b446b329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 1 Left End Corner Roof.FBX using Guid(c7614320f3ccb314189ab079b446b329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824de0c2e3c11e6a046445ae0bc740ee') in 0.014464 seconds 
+  Import took 0.017473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Medival house/Models/Pod trava.FBX
+  artifactKey: Guid(446c370c726921b429d687cd3758e87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Pod trava.FBX using Guid(446c370c726921b429d687cd3758e87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1adcf3fcf2857057383059e61e3ae6') in 0.015842 seconds 
+  Import took 0.018795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Medival house/Models/Ladder.FBX
+  artifactKey: Guid(bb5a99ac0db95f44d848573037624262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Ladder.FBX using Guid(bb5a99ac0db95f44d848573037624262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9268c9596f475bda25594ddffc3543f') in 0.017246 seconds 
+  Import took 0.020345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Medival house/Models/Broom.FBX
+  artifactKey: Guid(6245ae7771f9b2448a47de44f2afc323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Broom.FBX using Guid(6245ae7771f9b2448a47de44f2afc323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707fd8af50fbd667a4c58844b0dcdf85') in 0.017909 seconds 
+  Import took 0.020858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Medival house/Models/House 1 Roof End Closing.FBX
+  artifactKey: Guid(83b35b23ffce45144b36333781999ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 1 Roof End Closing.FBX using Guid(83b35b23ffce45144b36333781999ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef28800ed0044f8b6aa29818bc2325e') in 0.017281 seconds 
+  Import took 0.020570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Medival house/Models/House 1 Top Roof End.FBX
+  artifactKey: Guid(4e462f8142c5fe3428d4881ae9ec9357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 1 Top Roof End.FBX using Guid(4e462f8142c5fe3428d4881ae9ec9357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c0a979e2e7e3d7aee16b55965643c7') in 0.014567 seconds 
+  Import took 0.017562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Medival house/Models/Straw box.FBX
+  artifactKey: Guid(3ff147cd03227b8458017a17705437a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Straw box.FBX using Guid(3ff147cd03227b8458017a17705437a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc179fe94c11bc9a4ec8a6a4af49903') in 0.014585 seconds 
+  Import took 0.017554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Medival house/Models/Coach.FBX
+  artifactKey: Guid(7c625a21460e0db42adbeedaf6ecc61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Coach.FBX using Guid(7c625a21460e0db42adbeedaf6ecc61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd25c20fcef7133a9bd54d5c58e6132') in 0.015826 seconds 
+  Import took 0.018857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Medival house/Models/House 2 Roof Ledge.FBX
+  artifactKey: Guid(dbfc5368ba7d2e84ab8d351fa12a953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 Roof Ledge.FBX using Guid(dbfc5368ba7d2e84ab8d351fa12a953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79841862840a5525d871f86de623a017') in 0.015624 seconds 
+  Import took 0.018678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Medival house/Models/Middle End Roof.FBX
+  artifactKey: Guid(70b4b781536e2b14684db80233440336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Middle End Roof.FBX using Guid(70b4b781536e2b14684db80233440336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0c688b43de09b2936b2bd66fe116db') in 0.022245 seconds 
+  Import took 0.025353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Medival house/Models/Bucket 1.FBX
+  artifactKey: Guid(fcf20bc869fed9046966a561e95fbb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Bucket 1.FBX using Guid(fcf20bc869fed9046966a561e95fbb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fd526e306623a55b9e8ee78df77884') in 0.016896 seconds 
+  Import took 0.019981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Medival house/Models/house 1 wall.FBX
+  artifactKey: Guid(04a1a87be70c3d44c8e17ac44e6fcd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/house 1 wall.FBX using Guid(04a1a87be70c3d44c8e17ac44e6fcd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ceaf79155c66dc3aca32477ee2adf6') in 0.021052 seconds 
+  Import took 0.024118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Medival house/Models/House 2 Down End Right Roof.FBX
+  artifactKey: Guid(066385cba3ae7124fb64570a1b8c9db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 Down End Right Roof.FBX using Guid(066385cba3ae7124fb64570a1b8c9db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7feaa2a376b7d9a87eec70450210c0e8') in 0.013696 seconds 
+  Import took 0.016701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Medival house/Models/House 2 Right down.FBX
+  artifactKey: Guid(62c909bdc2a44a3499bd6c78f69ba808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 Right down.FBX using Guid(62c909bdc2a44a3499bd6c78f69ba808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1f0a813304e07ddd46863c39507169') in 0.014548 seconds 
+  Import took 0.017560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Medival house/Models/House 1 Ledge.FBX
+  artifactKey: Guid(6e78e192d9f0de84d89f897991b110dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 1 Ledge.FBX using Guid(6e78e192d9f0de84d89f897991b110dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588ff2703c5293c73ad88e28341f7b11') in 0.014836 seconds 
+  Import took 0.017867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Medival house/Models/Materials/Material #71.mat
+  artifactKey: Guid(c3445171e56c54b44a01355ca43b6c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Material #71.mat using Guid(c3445171e56c54b44a01355ca43b6c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da46cb227e312cc50e8887720947170c') in 0.024020 seconds 
+  Import took 0.027095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Medival house/Models/Materials/Wood flow Difuse.mat
+  artifactKey: Guid(5d3dc6a0029d21e48aabea1f0c4d4b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Wood flow Difuse.mat using Guid(5d3dc6a0029d21e48aabea1f0c4d4b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9d5477c6a37c1b6fb684067607da0f') in 0.010203 seconds 
+  Import took 0.013151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Medival house/Models/Materials/Material #231.mat
+  artifactKey: Guid(d898b771c7d86514facf5740b0f40d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Material #231.mat using Guid(d898b771c7d86514facf5740b0f40d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a51704618da01da6a3c64afe2465e7') in 0.007975 seconds 
+  Import took 0.010986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Medival house/Models/Materials/Stucco 1 Difuse.mat
+  artifactKey: Guid(80cd1309b7fd6474799e7e8b89574d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Stucco 1 Difuse.mat using Guid(80cd1309b7fd6474799e7e8b89574d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934f47213dd6a97fbaef07beb56aa224') in 0.009252 seconds 
+  Import took 0.012312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Medival house/Models/Materials/Material #114.mat
+  artifactKey: Guid(877e9ea3711aa6e48af91a210d9de15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Material #114.mat using Guid(877e9ea3711aa6e48af91a210d9de15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e9399efc9843fb63e53de4fe0246e2') in 0.008653 seconds 
+  Import took 0.012038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Medival house/Models/Materials/Roof difuse.mat
+  artifactKey: Guid(fcd04ed2a5865864fb988a6b703f3063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Roof difuse.mat using Guid(fcd04ed2a5865864fb988a6b703f3063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9f5555223d1c824f943988f3b1d2c7') in 0.008919 seconds 
+  Import took 0.011793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Medival house/Models/Materials/grass difuse.mat
+  artifactKey: Guid(58901e987adb2b94298577a6d6407932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/grass difuse.mat using Guid(58901e987adb2b94298577a6d6407932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59a7c1d54756155ca415059bea69435') in 0.009454 seconds 
+  Import took 0.012917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Medival house/Models/Materials/Kuca tid Difuse.mat
+  artifactKey: Guid(1aff260d252db9b418409fbdde60b358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Kuca tid Difuse.mat using Guid(1aff260d252db9b418409fbdde60b358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3988e4bf6c6b121094a7f318b8af3e63') in 0.010185 seconds 
+  Import took 0.013125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Medival house/Models/Materials/bacva.mat
+  artifactKey: Guid(08cd52a130c3efe4c8528b2d3081fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/bacva.mat using Guid(08cd52a130c3efe4c8528b2d3081fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13d5acbeeb67bb7ebada64a100a4b01') in 0.007606 seconds 
+  Import took 0.010703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Medival house/Models/Materials/kuca 2 roof difuse.mat
+  artifactKey: Guid(8c138e88fab5f284fa0575abd5d1258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/kuca 2 roof difuse.mat using Guid(8c138e88fab5f284fa0575abd5d1258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ea89b5dd0f82ab89884eac024c13a2') in 0.009228 seconds 
+  Import took 0.012202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Medival house/Models/Materials/Rock wall Difuse.mat
+  artifactKey: Guid(108da96836e9d524ba2b80ec423e7b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Rock wall Difuse.mat using Guid(108da96836e9d524ba2b80ec423e7b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf1355d73892785fbfcf08b6e096b6c') in 0.010398 seconds 
+  Import took 0.013405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Medival house/Models/Materials/Vrata.mat
+  artifactKey: Guid(3e8fe44daede846439372e8c6c3e3039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Vrata.mat using Guid(3e8fe44daede846439372e8c6c3e3039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2833300adbbd0d9123da55a457bc3f68') in 0.010387 seconds 
+  Import took 0.013343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Medival house/Models/Materials/Atlas.mat
+  artifactKey: Guid(264c3791ad5c28d428f9ef32ce1fa532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Atlas.mat using Guid(264c3791ad5c28d428f9ef32ce1fa532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2659fe6dd0cbe960ace7982edde6648d') in 0.013618 seconds 
+  Import took 0.016678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Medival house/Models/Materials/prozor.mat
+  artifactKey: Guid(3288cecc3e480d94bb476eca3fff95e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/prozor.mat using Guid(3288cecc3e480d94bb476eca3fff95e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa5017ff628175345dafba314252ae2') in 0.011747 seconds 
+  Import took 0.014716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Medival house/Models/Materials/Kanta difuse.mat
+  artifactKey: Guid(5ce1121218be88642a8a27607f1a7b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Kanta difuse.mat using Guid(5ce1121218be88642a8a27607f1a7b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e13e5358fa0ca048b0ef13ed9c97cbc') in 0.010007 seconds 
+  Import took 0.013023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Medival house/Models/Materials/Cylinder03CompleteMap.mat
+  artifactKey: Guid(31a0afaa0821f7c49811120745b3f565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Cylinder03CompleteMap.mat using Guid(31a0afaa0821f7c49811120745b3f565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e84307208f044a219268518a31b6113') in 0.011395 seconds 
+  Import took 0.014473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Medival house/Models/Materials/Bala slama.mat
+  artifactKey: Guid(20c359890d19a1b45888401c954d3fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Bala slama.mat using Guid(20c359890d19a1b45888401c954d3fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08e59bbc4fb76faa5bbca7caccde33d') in 0.009332 seconds 
+  Import took 0.012329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Medival house/Models/Materials/Diffuse.mat
+  artifactKey: Guid(061f9f05b5ab6d54ebbe43fd242027cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Diffuse.mat using Guid(061f9f05b5ab6d54ebbe43fd242027cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e008becbf3c00b50cd2d062a1c39c222') in 0.008993 seconds 
+  Import took 0.012013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Medival house/Models/Materials/Metla Difuse.mat
+  artifactKey: Guid(d9e5f0924949b7542b393b845de76ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Metla Difuse.mat using Guid(d9e5f0924949b7542b393b845de76ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bbbc6e682472838fcd63b20a1c5448') in 0.009710 seconds 
+  Import took 0.012702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Medival house/Models/Materials/semidesert_earth_grasses_6222770.mat
+  artifactKey: Guid(1b021271c2e45564182272d5cfc926b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/semidesert_earth_grasses_6222770.mat using Guid(1b021271c2e45564182272d5cfc926b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4f353b051feaabf745e1c59c99e66c') in 0.007541 seconds 
+  Import took 0.010409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Medival house/Models/Materials/Kuca 2 Drvo Difuse.mat
+  artifactKey: Guid(26c1d8f3de6da05419265fc9beaf969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Kuca 2 Drvo Difuse.mat using Guid(26c1d8f3de6da05419265fc9beaf969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558905272143d7b9d1ec3b4315831eef') in 0.009933 seconds 
+  Import took 0.013070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Medival house/Models/Fence Door.FBX
+  artifactKey: Guid(d9791f4fd5803934591852a29f2bbd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Fence Door.FBX using Guid(d9791f4fd5803934591852a29f2bbd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd40832ba33c6e7937ed3fda1f53da98') in 0.018620 seconds 
+  Import took 0.021712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Medival house/Models/House 2 Wall.FBX
+  artifactKey: Guid(7892f43b184f33a4d840beda148aa7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 Wall.FBX using Guid(7892f43b184f33a4d840beda148aa7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12968ee99c085eba8bd52bb1d936d90d') in 0.018470 seconds 
+  Import took 0.021383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Medival house/Models/House 2 Roof End Closing.FBX
+  artifactKey: Guid(6f69cb6189028b94b9fe77f19d5a3178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 Roof End Closing.FBX using Guid(6f69cb6189028b94b9fe77f19d5a3178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ce66a3b26ebc4ce8fdebb8a2791547') in 0.012236 seconds 
+  Import took 0.015250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Medival house/Models/Bowl.FBX
+  artifactKey: Guid(e29c23a72cc6dda49ab14e859057870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Bowl.FBX using Guid(e29c23a72cc6dda49ab14e859057870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cb5fca99ff27a8cdfb2491220b182b') in 0.017360 seconds 
+  Import took 0.020287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Medival house/Models/House 2 Wall Window.FBX
+  artifactKey: Guid(7356bbc23794ce2448782c8f20723cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 2 Wall Window.FBX using Guid(7356bbc23794ce2448782c8f20723cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6e79a54c50fdb2fbb623ff34c741a2') in 0.021471 seconds 
+  Import took 0.024923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Medival house/Models/House 1 Roof Ledge.FBX
+  artifactKey: Guid(103cac65a872a2644a2a82b62f258e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 1 Roof Ledge.FBX using Guid(103cac65a872a2644a2a82b62f258e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da33893beed8686c3bf8a432e903808') in 0.015821 seconds 
+  Import took 0.018780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Medival house/Models/house 2 Ledge.FBX
+  artifactKey: Guid(0b44631252671d245a37e16e8b833830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/house 2 Ledge.FBX using Guid(0b44631252671d245a37e16e8b833830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b376a1d36d72bdbff5c80f06a6bb6835') in 0.014218 seconds 
+  Import took 0.017250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Medival house/Models/Materials/Material #72.mat
+  artifactKey: Guid(65a0975d2b1779245a5a8cd909708758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/Material #72.mat using Guid(65a0975d2b1779245a5a8cd909708758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d8c75fbd06b488f115e2a2173449d5') in 0.008527 seconds 
+  Import took 0.011443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Medival house/Models/Materials/No Name.mat
+  artifactKey: Guid(4b73d512ec20fb34682daa41fe746380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/No Name.mat using Guid(4b73d512ec20fb34682daa41fe746380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e94178171dd6c11e8b5c8b27fe1b39') in 0.009113 seconds 
+  Import took 0.012111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Medival house/Models/House 1 Left down.FBX
+  artifactKey: Guid(60b0fb6e79d4f534e951d8a2040cd103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/House 1 Left down.FBX using Guid(60b0fb6e79d4f534e951d8a2040cd103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898d3488daa7e5313b698e52fab48e04') in 0.015307 seconds 
+  Import took 0.018468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Medival house/Models/Materials/atlas vrata i prozor.mat
+  artifactKey: Guid(c433e87eb5bf4fa40b257d907ea9bcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Models/Materials/atlas vrata i prozor.mat using Guid(c433e87eb5bf4fa40b257d907ea9bcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab03b4a68a71bc5b6f92161d102f45a') in 0.014459 seconds 
+  Import took 0.017461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.825351 seconds.
+  path: Assets/Medival house/Texture/Atlas NM.png
+  artifactKey: Guid(44bb0540171b6c24d99c7198cd82fc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Atlas NM.png using Guid(44bb0540171b6c24d99c7198cd82fc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc5e837dd44a031378e24db12ce85e2') in 0.021377 seconds 
+  Import took 0.024504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Medival house/Texture/Rock wall Difuse.png
+  artifactKey: Guid(bc92027df3b59804f8d37f1c249b1249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Rock wall Difuse.png using Guid(bc92027df3b59804f8d37f1c249b1249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669a2cb1d1e9a315cad5ba1ef17b6830') in 0.011769 seconds 
+  Import took 0.014848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Medival house/Texture/Atlas.png
+  artifactKey: Guid(446698acdbff6454cb86bb99937bacd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Atlas.png using Guid(446698acdbff6454cb86bb99937bacd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f638b599e93d5b3131cb239dced6ade') in 0.012405 seconds 
+  Import took 0.015514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Medival house/Texture/Atlas Vrata prozor NM.png
+  artifactKey: Guid(6af73bbdd3895154fa66ab69a511b6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Atlas Vrata prozor NM.png using Guid(6af73bbdd3895154fa66ab69a511b6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1104a8f7e44923ce8ff585d629d3d7') in 0.009187 seconds 
+  Import took 0.012232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Medival house/Texture/bacva.png
+  artifactKey: Guid(079f241360e1a514aa4f44074da13fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/bacva.png using Guid(079f241360e1a514aa4f44074da13fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0f33304c70c9907c9fc9e9ecacbf33') in 0.008747 seconds 
+  Import took 0.011930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Medival house/Texture/Kuca 2 Drvo NM.png
+  artifactKey: Guid(449bab6357439fa429e79e282026cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Kuca 2 Drvo NM.png using Guid(449bab6357439fa429e79e282026cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8c25c7949338dedea719d24d15578a') in 0.007358 seconds 
+  Import took 0.010332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Medival house/Texture/Vrata NM.png
+  artifactKey: Guid(8bdcfa716868a6b4dbe4eca84e61dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Vrata NM.png using Guid(8bdcfa716868a6b4dbe4eca84e61dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbf7b04bd75420964d307fa3b0b02d1') in 0.008906 seconds 
+  Import took 0.011970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Medival house/Texture/DiffuseAO.png
+  artifactKey: Guid(845523ef34bd3c84bba5f11eb327cb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/DiffuseAO.png using Guid(845523ef34bd3c84bba5f11eb327cb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f95d2ccc9a0530264f04a896d3a125c') in 0.007896 seconds 
+  Import took 0.011317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Medival house/Texture/Wood flow AO.png
+  artifactKey: Guid(01ceb0cb55d7f024d9357da0133e39fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Wood flow AO.png using Guid(01ceb0cb55d7f024d9357da0133e39fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c505662c174f725f2d0c931a2110ae4') in 0.008299 seconds 
+  Import took 0.011510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Medival house/Texture/Diffuse.png
+  artifactKey: Guid(f4ddd5fdb61f77b49acfff55458d8a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Diffuse.png using Guid(f4ddd5fdb61f77b49acfff55458d8a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c0276c1fa8fd279483ae47d7ffd581') in 0.008372 seconds 
+  Import took 0.011277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Medival house/Texture/Stucco 1 NM.png
+  artifactKey: Guid(beda13a3081db344d89bd30522d763b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Stucco 1 NM.png using Guid(beda13a3081db344d89bd30522d763b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d7110878385eedb205f7197d1f7168') in 0.008152 seconds 
+  Import took 0.011131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Medival house/Texture/kuca 2 roof difuse.png
+  artifactKey: Guid(fc718390f2af0684197c456cda424d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/kuca 2 roof difuse.png using Guid(fc718390f2af0684197c456cda424d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05df26c0b67149879d705d2df8cf38cb') in 0.007827 seconds 
+  Import took 0.010993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Medival house/Texture/Kanta difuse.png
+  artifactKey: Guid(8799b69a4eb69874891252683ce2dd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Kanta difuse.png using Guid(8799b69a4eb69874891252683ce2dd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ae5bede2777f800847ca40258c3cf1') in 0.007546 seconds 
+  Import took 0.010705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Medival house/Texture/Bala slama NM.png
+  artifactKey: Guid(199a0fe547325da4c9cceb420546dbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Bala slama NM.png using Guid(199a0fe547325da4c9cceb420546dbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf899737115f3c9f5fbf25afed59df91') in 0.009013 seconds 
+  Import took 0.011843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Medival house/Texture/Stucco 1 Difuse.png
+  artifactKey: Guid(d7db845b877dc074abd4100eabbc0051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Stucco 1 Difuse.png using Guid(d7db845b877dc074abd4100eabbc0051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b9156a96d47572d200ee3016794b2f') in 0.007790 seconds 
+  Import took 0.010931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Medival house/Texture/Bala slama.png
+  artifactKey: Guid(75be61cf08fc19644aa7dd5acb66aaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Bala slama.png using Guid(75be61cf08fc19644aa7dd5acb66aaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff3fe872716b2d691ca87cf5ae441c4') in 0.007921 seconds 
+  Import took 0.010881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Medival house/Texture/Kuca zid NM.png
+  artifactKey: Guid(7eaa02e6da851c543b42d8ef17491162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Kuca zid NM.png using Guid(7eaa02e6da851c543b42d8ef17491162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15a789062239a94cacd2c1561444e82') in 0.010495 seconds 
+  Import took 0.013554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Medival house/Texture/Prozor NM.png
+  artifactKey: Guid(584ef2e606697344c8d068f44986e1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Prozor NM.png using Guid(584ef2e606697344c8d068f44986e1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91dc7adebfeee5d85631b7a2b9689fa9') in 0.010375 seconds 
+  Import took 0.013307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Medival house/Texture/Kuca tid Difuse.png
+  artifactKey: Guid(4633e8a8fc174cc45b5cba3df1880139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Kuca tid Difuse.png using Guid(4633e8a8fc174cc45b5cba3df1880139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488969a918578e5f24fd02d22111fa7c') in 0.007257 seconds 
+  Import took 0.010242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Medival house/Texture/Metla slama NM.png
+  artifactKey: Guid(0a202cf53c2effd499dedfd6c03fa52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Metla slama NM.png using Guid(0a202cf53c2effd499dedfd6c03fa52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4d299a7a06e4be00889379ba2fa5cc') in 0.008393 seconds 
+  Import took 0.011860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Medival house/Texture/Rock wall AO.png
+  artifactKey: Guid(be94a1d190790bf4ba7a9e5d2976aaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Rock wall AO.png using Guid(be94a1d190790bf4ba7a9e5d2976aaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0ae6a7770e436a78cbe602cd45463d') in 0.008526 seconds 
+  Import took 0.011589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Medival house/Texture/Wood flow NM.png
+  artifactKey: Guid(b7d3fa17bb8d1794faa846fb8dc77a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Wood flow NM.png using Guid(b7d3fa17bb8d1794faa846fb8dc77a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecd389a66aed3c1a5e9dabfa8ec09c8') in 0.008568 seconds 
+  Import took 0.011654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Medival house/Texture/atlas vrata i prozor.png
+  artifactKey: Guid(ad6b4424c2acbd3429d553e4220b5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/atlas vrata i prozor.png using Guid(ad6b4424c2acbd3429d553e4220b5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a5295e1579037ad73dfb685125dcf3') in 0.008582 seconds 
+  Import took 0.011559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Medival house/Texture/Metla Difuse.png
+  artifactKey: Guid(2dbed074a7242774e8d5ba6d3231bf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Metla Difuse.png using Guid(2dbed074a7242774e8d5ba6d3231bf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4bcc9ea3449f1b12993caf8e89932b') in 0.006819 seconds 
+  Import took 0.010075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Medival house/Texture/Rock wall NM.png
+  artifactKey: Guid(9c97d2a88dbcb874b957529715ff0a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Rock wall NM.png using Guid(9c97d2a88dbcb874b957529715ff0a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bf6af2f8e35a7eea6b9796a64c2054') in 0.009106 seconds 
+  Import took 0.012137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Medival house/Texture/Barrel 1 NM.png
+  artifactKey: Guid(4d246dc321df14446b886c735d122367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Barrel 1 NM.png using Guid(4d246dc321df14446b886c735d122367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaf8adc4a6824b300d6c80ac4519539') in 0.008507 seconds 
+  Import took 0.011521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Medival house/Texture/DiffuseNM.png
+  artifactKey: Guid(9de18b250a88b814ab80cc818e6e8667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/DiffuseNM.png using Guid(9de18b250a88b814ab80cc818e6e8667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9190279a1d8950767d1290ecf4f9c63') in 0.009487 seconds 
+  Import took 0.012440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Medival house/Texture/Vrata.png
+  artifactKey: Guid(0a3bd4d14e550f54ead9b218214d0317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Vrata.png using Guid(0a3bd4d14e550f54ead9b218214d0317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa4582928a81754f9de544320788c13') in 0.007051 seconds 
+  Import took 0.010029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Medival house/Texture/grass difuse.png
+  artifactKey: Guid(604e09c71211bd54ab03ac66cbdb5e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/grass difuse.png using Guid(604e09c71211bd54ab03ac66cbdb5e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f961480531330d36dae238d3df45e037') in 0.008642 seconds 
+  Import took 0.011654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Medival house/Texture/kuca 2 roof NM.png
+  artifactKey: Guid(8919d10e0fcce6d4fa2e9934f6bb4c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/kuca 2 roof NM.png using Guid(8919d10e0fcce6d4fa2e9934f6bb4c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23602c234384ceaed3cdce1a629a99a1') in 0.008903 seconds 
+  Import took 0.012122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Medival house/Texture/Kuca 2 Drvo Difuse.png
+  artifactKey: Guid(fe64fc3e2e765d54981026417d91282c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Kuca 2 Drvo Difuse.png using Guid(fe64fc3e2e765d54981026417d91282c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c52852b8d2d65e01e79e683bdbae5b6') in 0.006877 seconds 
+  Import took 0.009853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Medival house/Texture/prozor.png
+  artifactKey: Guid(adee044228f3d8849b0608f8a41a037f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/prozor.png using Guid(adee044228f3d8849b0608f8a41a037f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ffb8fdcb478c52ab6608fbe95f5ed1') in 0.008678 seconds 
+  Import took 0.011839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Medival house/Texture/Roof NM.png
+  artifactKey: Guid(31dbba1a5a16149419aed617d2510ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Roof NM.png using Guid(31dbba1a5a16149419aed617d2510ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbcacb3bcf054689c224a0aaf6aa865') in 0.009983 seconds 
+  Import took 0.012991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Medival house/Texture/Kanta NM.png
+  artifactKey: Guid(8c590729980010f4abbd8f5282502256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Kanta NM.png using Guid(8c590729980010f4abbd8f5282502256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8313543ec3addb69c9b8ec0a6edeab7d') in 0.009816 seconds 
+  Import took 0.012771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Medival house/Texture/Bacva NM.png
+  artifactKey: Guid(a10c226b938c272419f58a977f065314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Bacva NM.png using Guid(a10c226b938c272419f58a977f065314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee63e7592ac9ff7adc35aa66c6e5482') in 0.007306 seconds 
+  Import took 0.010266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Medival house/Texture/Roof difuse.png
+  artifactKey: Guid(5be134813a12b95489185b654e385832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Roof difuse.png using Guid(5be134813a12b95489185b654e385832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1470de346b6706b5d700d0a5bb949d0') in 0.008471 seconds 
+  Import took 0.011489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Medival house/Texture/Barrel 1 difuse.png
+  artifactKey: Guid(9e3e80855226fe140b5c2bab284ec92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Barrel 1 difuse.png using Guid(9e3e80855226fe140b5c2bab284ec92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c42fc2f9f73bf040b9bcb23b787708b') in 0.007892 seconds 
+  Import took 0.010837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Medival house/Texture/Flor grass NM.png
+  artifactKey: Guid(59de78452fe28fe45b71298ac56d312d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Flor grass NM.png using Guid(59de78452fe28fe45b71298ac56d312d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4517bd11f3da94a333f38c1e778186cd') in 0.009607 seconds 
+  Import took 0.012586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Medival house/Texture/DiffuseDP.png
+  artifactKey: Guid(305e52ce6c0d8594ebcb8eaf6db69eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/DiffuseDP.png using Guid(305e52ce6c0d8594ebcb8eaf6db69eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969ac172233945738662460793606f2c') in 0.007811 seconds 
+  Import took 0.010884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Medival house/Texture/Wood flow Difuse.png
+  artifactKey: Guid(fb8e15b81f50d21498a186e684910b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Wood flow Difuse.png using Guid(fb8e15b81f50d21498a186e684910b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dd211bb3aecd75a2a9a1a39bafcf7c') in 0.007810 seconds 
+  Import took 0.010890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Medival house/Texture/Stucco 1 AO.png
+  artifactKey: Guid(f26755cea6e2fad40aba816e481f2759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house/Texture/Stucco 1 AO.png using Guid(f26755cea6e2fad40aba816e481f2759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8df731bbbe3b180787a781d677e0ee3') in 0.007285 seconds 
+  Import took 0.010031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.297525 seconds.
+  path: Assets/Scenes/Rescue.unity
+  artifactKey: Guid(e2863716f1d52c8458a7548444c3ce67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Rescue.unity using Guid(e2863716f1d52c8458a7548444c3ce67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677bc87b99299989e6ffca760b309ef5') in 0.003759 seconds 
+  Import took 0.007758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.737307 seconds.
+  path: Assets/Medival house
+  artifactKey: Guid(54c90f9e3e27a2443b578a64a657cedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival house using Guid(54c90f9e3e27a2443b578a64a657cedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadaa2f192102d426e9d31ea73dad760') in 0.003529 seconds 
+  Import took 0.006711 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

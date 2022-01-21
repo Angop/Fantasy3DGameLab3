@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     public float maxHealth = 100;
     float curHealth;
 
+    public GameEnd ge;
+
     // testing values below
     public bool takeDamage = false;
 
@@ -31,5 +33,11 @@ public class PlayerController : MonoBehaviour
     {
         curHealth += val;
         healthBar.setHealth(curHealth / maxHealth);
+
+        if (curHealth <= 0)
+        {
+            // Player died
+            ge.Lose();
+        }
     }
 }
