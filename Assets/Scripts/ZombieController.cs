@@ -13,6 +13,7 @@ public class ZombieController : MonoBehaviour
     public float attackVal = 5;
 
     public float health = 20;
+    bool isDead;
     
     // testing variables
     public bool attack;
@@ -22,6 +23,7 @@ public class ZombieController : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+        isDead = false;
         attack = false;
         walk = false;
     }
@@ -29,31 +31,34 @@ public class ZombieController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerDetected())
+        if (!isDead)
         {
-            if (PlayerInAttackRange())
+            if (PlayerDetected())
             {
-                AttackPlayer();
+                if (PlayerInAttackRange())
+                {
+                    AttackPlayer();
+                }
+                else
+                {
+                    ChasePlayer();
+                }
             }
-            else
+            else if (anim.GetBool("isWalking"))
             {
-                ChasePlayer();
+                // idle
+                print("Zombie stops walking");
+                walk = false;
             }
-        }
-        else if (anim.GetBool("isWalking"))
-        {
-            // idle
-            print("Zombie stops walking");
-            walk = false;
-        }
 
-        if (walk)
-        {
-            anim.SetBool("isWalking", true);
-        }
-        if (!walk)
-        {
-            anim.SetBool("isWalking", false);
+            if (walk)
+            {
+                anim.SetBool("isWalking", true);
+            }
+            if (!walk)
+            {
+                anim.SetBool("isWalking", false);
+            }
         }
 
         // testing code
@@ -111,7 +116,9 @@ public class ZombieController : MonoBehaviour
         if (health <= 0)
         {
             // dies
+            isDead = true;
             anim.SetTrigger("dies");
+            anim.ResetTrigger("attack"); // prevents trying to attack after death
         }
     }
 
