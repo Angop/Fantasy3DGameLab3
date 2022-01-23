@@ -10,13 +10,16 @@ public class PlayerController : MonoBehaviour
     float curHealth;
 
     public GameEnd ge;
+    public Animator anim;
 
     // testing values below
     public bool takeDamage = false;
+    public bool attack = false;
 
     void Start()
     {
         curHealth = maxHealth;
+        attack = false;
     }
 
     // Update is called once per frame
@@ -27,9 +30,14 @@ public class PlayerController : MonoBehaviour
             takeDamage = false;
             UpdateHealth(-20);
         }
+        if (attack)
+        {
+            attack = false;
+            anim.SetTrigger("attack");
+        }
     }
 
-    void UpdateHealth(float val)
+    public void UpdateHealth(float val)
     {
         curHealth += val;
         healthBar.setHealth(curHealth / maxHealth);

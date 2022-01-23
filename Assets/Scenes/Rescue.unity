@@ -6919,6 +6919,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4416926081852918481, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
   m_PrefabInstance: {fileID: 2027441934}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &889828427 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6982812146204527121, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+  m_PrefabInstance: {fileID: 2027441934}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &889828428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6934,7 +6939,9 @@ MonoBehaviour:
   healthBar: {fileID: 1298044897}
   maxHealth: 100
   ge: {fileID: 889828429}
+  anim: {fileID: 889828427}
   takeDamage: 0
+  attack: 0
 --- !u!114 &889828429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11152,7 +11159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 67.145
+      value: 69.044
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15104,7 +15111,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659396926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -66.32, y: 67.145, z: -37.67}
+  m_LocalPosition: {x: -66.32, y: 69.044, z: -37.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -17031,10 +17038,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1713392467}
+  playerController: {fileID: 889828428}
   detectionRange: 10
   attackRange: 1
+  attackVal: 5
+  health: 20
   attack: 0
   walk: 0
+  kill: 0
 --- !u!143 &1938061204
 CharacterController:
   m_ObjectHideFlags: 0
@@ -18456,7 +18467,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 65.77
+      value: 67.669
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18480,15 +18491,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 0.5804744
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 17.674213
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -1.1283331
       objectReference: {fileID: 0}
     - target: {fileID: 3964097221717966225, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18941,6 +18952,16 @@ PrefabInstance:
     - target: {fileID: 6841740426104573242, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.347552
+      objectReference: {fileID: 0}
+    - target: {fileID: 6982812146204527121, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'Left_IndexProximal'\n\tTransform 'Left_LowerArm'\n\tTransform
+        'Chest'\n\tTransform 'Spine'\n\tTransform 'Left_RingProximal'\n\tTransform
+        'Right_Foot'\n\tTransform 'Right_Toes'\n\tTransform 'Right_LowerLeg'\n\tTransform
+        'UpperChest'\n\tTransform 'Left_Toes'\n\tand more ...\n\tFrom animation clip
+        'mixamo.com'"
       objectReference: {fileID: 0}
     - target: {fileID: 6983258932120580808, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.x
