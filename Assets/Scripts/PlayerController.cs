@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
     public GameEnd ge;
     public Animator anim;
 
+    List<GameObject> enemiesInRange;
+    public float attackVal = 5; // damage of player attack
+
     // testing values below
     public bool takeDamage = false;
     public bool attack = false;
@@ -20,6 +23,7 @@ public class PlayerController : MonoBehaviour
     {
         curHealth = maxHealth;
         attack = false;
+        enemiesInRange = new List<GameObject>();
     }
 
     // Update is called once per frame
@@ -46,6 +50,48 @@ public class PlayerController : MonoBehaviour
         {
             // Player died
             ge.Lose();
+        }
+    }
+
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            print("adding enemy to list");
+            enemiesInRange.Add(other.gameObject);
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            print("removing enemy from list");
+            enemiesInRange.Remove(other.gameObject);
+        }
+    }
+
+    void OnAttack()
+    {
+        attack = true;
+    }
+
+    void AttackEnemies()
+    {
+        // called from animation event
+        ZombieController zc = null;
+
+        for (int i = 0; i < enemiesInRange.Count; i++)
+        {
+            if (enemiesInRange[i] != null)
+            {
+                zc = enemiesInRange[i].GetComponent<ZombieController>();
+                zc.UpdateHealth(-attackVal);
+            }
+            else
+            {
+                enemiesInRange.Remove(enemiesInRange[i]);
+            }
         }
     }
 }

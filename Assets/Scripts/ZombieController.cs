@@ -104,7 +104,7 @@ public class ZombieController : MonoBehaviour
         return Vector3.Distance(transform.position, player.position) < attackRange;
     }
 
-    void UpdateHealth(float val)
+    public void UpdateHealth(float val)
     {
         health += val;
 
