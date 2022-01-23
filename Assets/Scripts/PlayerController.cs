@@ -43,8 +43,10 @@ public class PlayerController : MonoBehaviour
 
     public void UpdateHealth(float val)
     {
-        curHealth += val;
+        curHealth += curHealth + val <= maxHealth ? val : maxHealth - curHealth;
+        print(string.Format("set health to {0}", curHealth));
         healthBar.setHealth(curHealth / maxHealth);
+        // TODO: play damaged, healing, or dying sound effect here
 
         if (curHealth <= 0)
         {
