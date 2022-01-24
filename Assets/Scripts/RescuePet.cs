@@ -6,12 +6,19 @@ public class RescuePet : MonoBehaviour
 {
     public GameObject player;
     public GameEnd game;
+    public Animator anim;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other .gameObject == player)
+        if (other.gameObject == player)
         {
-            game.Win();
+            anim.SetTrigger("breakCage");
+            print("Breaking cage");
         }
+    }
+
+    public void WinGame()
+    {
+        game.Win();
     }
 }

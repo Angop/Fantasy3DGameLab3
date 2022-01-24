@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
     public GameEnd ge;
     public Animator anim;
 
+    AudioSource playerAudio;
+    public AudioClip eatClip;
+
     List<GameObject> enemiesInRange;
     public float attackVal = 5; // damage of player attack
 
@@ -24,6 +27,7 @@ public class PlayerController : MonoBehaviour
         curHealth = maxHealth;
         attack = false;
         enemiesInRange = new List<GameObject>();
+        playerAudio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -44,14 +48,18 @@ public class PlayerController : MonoBehaviour
     public void UpdateHealth(float val)
     {
         curHealth += curHealth + val <= maxHealth ? val : maxHealth - curHealth;
-        print(string.Format("set health to {0}", curHealth));
+//        print(string.Format("set health to {0}", curHealth));
         healthBar.setHealth(curHealth / maxHealth);
         // TODO: play damaged, healing, or dying sound effect here
-
+        
         if (curHealth <= 0)
         {
             // Player died
             ge.Lose();
+        }
+        else if (val > 0)
+        {
+            playerAudio.PlayOneShot(eatClip, Random.Range(0.75f, 1));
         }
     }
 

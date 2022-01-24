@@ -14,6 +14,9 @@ public class ZombieController : MonoBehaviour
 
     public float health = 20;
     bool isDead;
+
+    AudioSource zombieAudioSource;
+    public AudioClip searchSound;
     
     // testing variables
     public bool attack;
@@ -26,6 +29,9 @@ public class ZombieController : MonoBehaviour
         isDead = false;
         attack = false;
         walk = false;
+        zombieAudioSource = GetComponent<AudioSource>();
+        // periodically makes sound
+        StartCoroutine(SearchingZombieSound());
     }
 
     // Update is called once per frame
@@ -121,10 +127,18 @@ public class ZombieController : MonoBehaviour
             anim.ResetTrigger("attack"); // prevents trying to attack after death
         }
     }
-
     void Dies()
     {
         // called from end of death animation
         Destroy(gameObject);
+    }
+
+    IEnumerator SearchingZombieSound()
+    {
+        while(!walk)
+        {
+            zombieAudioSource.PlayOneShot(searchSound);
+            yield return new WaitForSeconds(Random.Range(5, 10));
+        }
     }
 }
