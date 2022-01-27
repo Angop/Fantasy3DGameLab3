@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using System;
+using TMPro;
 
 public class GameEnd : MonoBehaviour
 {
@@ -10,6 +12,7 @@ public class GameEnd : MonoBehaviour
     public GameObject loseScreen;
 
     private bool gameover;
+    DateTime startTime;
 
     void Start()
     {
@@ -17,6 +20,9 @@ public class GameEnd : MonoBehaviour
         winScreen.SetActive(false);
         loseScreen.SetActive(false);
         gameover = false;
+
+        startTime = new DateTime();
+        startTime = DateTime.Now;
     }
 
     public void OnRestart()
@@ -37,16 +43,35 @@ public class GameEnd : MonoBehaviour
     {
         print("YOU WON!!");
         gameover = true;
+
+        String totalTimeStr = GetCompletionTimeStr();
+
+        TextMeshProUGUI textMesh = winScreen.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+        textMesh.text = "Completion time: " + totalTimeStr;
+
         winScreen.SetActive(true);
     }
     public void Lose()
     {
         print("YOU LOSE!!");
         gameover = true;
+        String totalTimeStr = GetCompletionTimeStr();
+
+        TextMeshProUGUI textMesh = loseScreen.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+        textMesh.text = "Completion time: " + totalTimeStr;
+
         loseScreen.SetActive(true);
     }
     private void RestartScene()
     {
         print("Restarting scene");
+    }
+    private String GetCompletionTimeStr()
+    {
+        DateTime endTime = DateTime.Now;
+        DateTime totTime = new DateTime() + (endTime - startTime);
+        String totalTimeStr = totTime.ToString("H:mm:ss");
+
+        return totalTimeStr;
     }
 }

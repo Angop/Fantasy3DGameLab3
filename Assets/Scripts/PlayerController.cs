@@ -84,6 +84,12 @@ public class PlayerController : MonoBehaviour
     void OnAttack()
     {
         attack = true;
+        // Note: switching to this if statement allows spamming the attack button,
+        // but it introduces an awkward pause between each attack
+        //if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        //{
+        //    attack = true;
+        //}
     }
 
     void AttackEnemies()
@@ -103,5 +109,10 @@ public class PlayerController : MonoBehaviour
                 enemiesInRange.Remove(enemiesInRange[i]);
             }
         }
+    }
+
+    public bool isAlive()
+    {
+        return curHealth > 0;
     }
 }

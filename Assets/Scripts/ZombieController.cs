@@ -8,7 +8,7 @@ public class ZombieController : MonoBehaviour
     public PlayerController playerController; // player health, etc
     private Animator anim;
 
-    public float detectionRange = 10;
+    public float detectionRange = 20;
     public float attackRange = 1;
     public float attackVal = 5;
 
@@ -17,6 +17,7 @@ public class ZombieController : MonoBehaviour
 
     AudioSource zombieAudioSource;
     public AudioClip searchSound;
+    public AudioClip damagedSound;
     
     // testing variables
     public bool attack;
@@ -98,7 +99,7 @@ public class ZombieController : MonoBehaviour
     {
         // Called as an animation event on attack animation
         // if statement prevents damage when player has moved out of range
-        if (PlayerInAttackRange())
+        if (PlayerInAttackRange() && playerController.isAlive())
         {
             playerController.UpdateHealth(-attackVal);
         }
@@ -119,6 +120,11 @@ public class ZombieController : MonoBehaviour
     {
         health += val;
 
+        if (val < 0)
+        {
+            // on damage, make sound
+            zombieAudioSource.PlayOneShot(damagedSound);
+        }
         if (health <= 0)
         {
             // dies

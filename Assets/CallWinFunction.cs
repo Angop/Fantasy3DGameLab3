@@ -5,6 +5,7 @@ using UnityEngine;
 public class CallWinFunction : MonoBehaviour
 {
     public RescuePet rp;
+
     public void CallWinFunctionHere()
     {
         print("Calling win function from animation");
